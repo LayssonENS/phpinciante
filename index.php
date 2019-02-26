@@ -2,6 +2,7 @@
 //Declaração variavel
 $var = 'texto 1';
 $var2 = 'texto 2';
+$cal = 2.5;
 
 //Declaração array
 $lista_compras[1] = 'Teste 1';

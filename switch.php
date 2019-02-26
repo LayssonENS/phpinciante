@@ -1,6 +1,7 @@
 <?php
 
-    switch (6) {
+    $var = 2;
+    switch ($var) {
         case 1:
             echo 'certo';
             break;
