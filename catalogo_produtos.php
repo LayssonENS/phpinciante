@@ -29,14 +29,14 @@
                             <option value="4">TV 29"</option>
                         </select>
                     </div>
-                    
+
                     <button type="submit" class="btn btn-default">Ver detalhes</button>
                 </form>
             </div>
             <div class="col-md-4"></div>
             <div class="col-md-4"></div>
         </div>
-        </div>
+    </div>
 </body>
 
-</html> 
+</html>
