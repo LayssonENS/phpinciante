@@ -1,18 +1,16 @@
 <?php
 
-    function valida_login($login, $senha){
-        
-        //validadr direto em banco de dados
-        $login_db = 'laysson';
-        $senha_db = '123';
+function valida_login($login, $senha)
+{
 
-        if($login == $login_db && $senha==$senha_db){
-            return true;
+    //validar direto em banco de dados
+    $login_db = 'laysson';
+    $senha_db = '123';
 
-        }
-
-        return false;
-        
+    if ($login == $login_db && $senha == $senha_db) {
+        return true;
     }
 
+    return false;
+}
 ?>
