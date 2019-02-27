@@ -1,6 +1,6 @@
 <?php
 
-
+//Validando campos com PHP
 
 if (isset($_POST['nome']) && empty($_POST['nome'])) {
     echo 'Preencha o nome completo';
