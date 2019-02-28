@@ -14,7 +14,12 @@ if (isset($_POST['cpf']) && !is_numeric($_POST['cpf'])) {
     echo 'Apenas numeros no cpf';
 }
 
-
+//verifica se o cpf tem 11 caracter
+$cpf = isset($_POST['cpf']) ? $_POST['cpf'] : '';
+$total_string = strlen($cpf);
+if ($total_string != 11 && $total_string != '') {
+    echo 'Cpf invalido';
+}
 
 ?>
 <form method="post" action="">
@@ -30,4 +35,4 @@ if (isset($_POST['cpf']) && !is_numeric($_POST['cpf'])) {
 
     <input type="submit" value="Cadastrar">
 
-    </f orm> 
+    </form>
